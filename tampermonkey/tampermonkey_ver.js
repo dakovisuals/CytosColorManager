@@ -42,8 +42,8 @@
         container.style.position = 'fixed';
         container.style.top = '0';
         container.style.left = '0';
-        container.style.width = '50vw';
-        container.style.height = '50vh';
+        container.style.width = '100vw';
+        container.style.height = '100vh';
         container.style.background = '#121212';
         container.style.color = 'white';
         container.style.display = 'flex';
