@@ -5,6 +5,7 @@
 // @description   Unique color modes
 // @author        dakovisuals
 // @match         http://cytos.io/*
+// @icon          https://github.com/dakovisuals/CytosColorManager/blob/main/tampermonkey/favicon.jpg?raw=true
 // @license       MIT
 
 // ==/UserScript==
