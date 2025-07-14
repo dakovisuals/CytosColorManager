@@ -1,3 +1,5 @@
+![](https://github.com/dakovisuals/CytosColorManager/blob/main/tampermonkey/favicon.jpg?raw=true)
+
 # CytosColorManager
 Unique color modes, configurable delay, dark UI theme.
 
