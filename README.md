@@ -25,4 +25,6 @@ There're two ways: via ***Tampermonkey*** or directly through the ***console***.
 
 **Step 3:** open browser's console (usually shortcut "F12"), paste the code and click "Enter". Here we go!!
 
->*After trying out the user script for a while, please, leave some feedback <333*
+>*If you're pasting the code into the console for the 1st time, then 1st you need to write "allow pasting".*
+
+>After trying out the user script for a while, please, leave some feedback <333
