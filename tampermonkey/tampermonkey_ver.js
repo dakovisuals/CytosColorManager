@@ -9,7 +9,6 @@
 // @license       MIT
 
 // ==/UserScript==
-
 (function() {
     'use strict';
 
@@ -42,8 +41,8 @@
         container.style.position = 'fixed';
         container.style.top = '0';
         container.style.left = '0';
-        container.style.width = '100vw';
-        container.style.height = '100vh';
+        container.style.width = '50vw';
+        container.style.height = '50vh';
         container.style.background = '#121212';
         container.style.color = 'white';
         container.style.display = 'flex';
@@ -65,7 +64,7 @@
         //perk
         const perkLabel = document.createElement('label');
         perkLabel.innerText = 'Perk Name:';
-        perkLabel.style.marginBottom = '10px';
+        perkLabel.style.marginBottom = '10px'; 
         container.appendChild(perkLabel);
 
         const perkInput = document.createElement('input');
@@ -79,7 +78,7 @@
         perkInput.style.background = '#222';
         perkInput.style.color = 'white';
         perkInput.style.fontSize = '16px';
-        perkInput.style.marginBottom = '15px';
+        perkInput.style.marginBottom = '15px'; 
         container.appendChild(perkInput);
 
         //color selection
@@ -95,7 +94,7 @@
         colorModeSelect.style.border = '2px solid #00aaff';
         colorModeSelect.style.borderRadius = '5px';
         colorModeSelect.style.background = '#222';
-        colorModeSelect.style.color = '#00aaff';
+        colorModeSelect.style.color = '#00aaff'; 
         colorModeSelect.style.fontSize = '16px';
         colorModeSelect.style.fontWeight = 'bold';
         colorModeSelect.style.marginBottom = '25px';
@@ -149,8 +148,8 @@
         startStopButton.innerText = 'Start';
         startStopButton.style.padding = '12px 20px';
         startStopButton.style.border = '2px solid #00aaff';
-        startStopButton.style.background = '#222';
-        startStopButton.style.color = 'white';
+        startStopButton.style.background = '#222'; 
+        startStopButton.style.color = 'white'; 
         startStopButton.style.fontSize = '18px';
         startStopButton.style.cursor = 'pointer';
         startStopButton.style.borderRadius = '5px';
@@ -236,6 +235,7 @@
                 "perk_color_picked": color
             };
 
+    
             await fetch(url, {
                 method: 'PATCH',
                 headers: headers,
@@ -245,6 +245,7 @@
             await new Promise(resolve => setTimeout(resolve, delay));
         }
     }
+    
 
     // Suppress errors from logging
     window.onerror = () => true;
