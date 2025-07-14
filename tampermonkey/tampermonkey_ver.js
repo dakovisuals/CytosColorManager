@@ -1,14 +1,15 @@
 // ==UserScript==
 // @name          Cytos Color Manager
-// @namespace     http://tampermonkey.net/
-// @version       1.5
+// @namespace     https://tampermonkey.net/
+// @version       1.6
 // @description   Unique color modes
 // @author        dakovisuals
-// @match         http://cytos.io/*
+// @match         https://cytos.io
 // @icon          https://github.com/dakovisuals/CytosColorManager/blob/main/tampermonkey/favicon.jpg?raw=true
 // @license       MIT
 
 // ==/UserScript==
+
 (function() {
     'use strict';
 
