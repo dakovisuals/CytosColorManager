@@ -1,5 +1,5 @@
 # CytosColorManager
-Unique color modes, dark UI theme.
+Unique color modes, configurable delay, dark UI theme.
 
 > by @dakovisuals aka Daniel Kaliagin
 
